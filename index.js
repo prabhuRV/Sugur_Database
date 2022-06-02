@@ -14,7 +14,7 @@ const MerchStation=require("./MerchStation.json")
 const SkinCare=require("./SkinCare.json")
 const Trending=require("./Trending.json")
 
-let port=process.env.PORT || 8080
+let port=process.env.PORT || 3000
 
 app.get("/",(req,res)=>
 {

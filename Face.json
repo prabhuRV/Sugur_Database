@@ -1,13 +1,5 @@
 [
-    {
-      "id": 1,
-      "amount": 1,
-      "catg": "Face",
-      "image": "https://cdn.shopify.com/s/files/1/0906/2558/products/sugar-cosmetics-contour-de-force-mini-blush-01-peach-peak-soft-peach-pink-11020203884627.jpg?v=",
-      "name": "CORTOUR DE FORCE MINI BLUSH",
-      "price": 449,
-      "rating": 4.8
-    },
+   
     {
       "id": 2,
       "amount": 1,

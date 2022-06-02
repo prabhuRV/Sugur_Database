@@ -2,7 +2,7 @@ const express=require("express")
 const app=express();
 const importData=require("./data.json")
 const BodyCare=require("./BodyCare.json")
-let port=process.env.PORT || 3000
+let port=process.env.PORT || 8080
 
 app.get("/",(req,res)=>
 {

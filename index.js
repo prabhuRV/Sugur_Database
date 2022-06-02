@@ -2,7 +2,7 @@ const express=require("express")
 const app=express();
 const importData=require("./data.json")
 const flipcart=require("./Flipcart.json")
-const BodyCare=require("./BodyCare.json")
+
 const BestOffers=require("./BestOffers.json")
 const Breshes=require("./Breshes.json")
 const Eye=require("./Eye.json")
@@ -28,10 +28,7 @@ app.get("/cloths",(req,res)=>
 {
     res.send(flipcart)
 })
-app.get("/BodyCare",(req,res)=>
-{
-    res.send(BodyCare)
-})
+
 app.get("/BestOffers",(req,res)=>
 {
     res.send(BestOffers)
